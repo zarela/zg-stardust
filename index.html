@@ -15,6 +15,11 @@
       sizes="72x72"
       href="icons/apple-touch-icon-72x72.png"
     />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
@@ -40,6 +45,12 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
@@ -51,7 +62,6 @@
     <a href="#page-top" class="scroll-up scroll"
       ><i class="fa fa-chevron-up"></i
     ></a>
-    <h1>Freelancer</h1>
 
     <!-- ==========================
     	HEADER - START
@@ -300,7 +310,7 @@
                 <div class="event-info">
                   <div class="date">2017</div>
                 </div>
-                <span>Started working as Software Developer</span>
+                <span>Software Developer</span>
               </div>
               <!-- BLOG POST 1 - END -->
             </div>
@@ -383,7 +393,6 @@
               Web Developer | Designer | Digital Marketer
             </p>
           </div>
-
           <div class="col-md-3 service scrollpoint sp-effect1">
             <img src="image/ico5.png" alt="" />
             <h3>Creative Applications</h3>
@@ -516,9 +525,231 @@
     =========================== -->
 
     <!-- ==========================
-    	SHOWCASE - START
+    	REFERENCE - START - PORTFOLIO
     =========================== -->
+    <section id="reference" class="content-second">
+      <h2 class="scrollpoint sp-effect3">Portfolio</h2>
+      <p class="scrollpoint sp-effect3">
+        Full stack applications in both MEAN Stack and Ruby on Rails
+      </p>
+      <ul class="grid cs-style-4">
+        <li>
+          <figure class="scrollpoint sp-effect1">
+            <div><img src="image/ref1.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure class="scrollpoint sp-effect3">
+            <div><img src="image/ref2.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure class="scrollpoint sp-effect2">
+            <div><img src="image/ref3.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure class="scrollpoint sp-effect1">
+            <div><img src="image/ref4.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure class="scrollpoint sp-effect3">
+            <div><img src="image/ref5.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <figure class="scrollpoint sp-effect2">
+            <div><img src="image/ref6.png" alt="img04" /></div>
+            <figcaption>
+              <h3>Lorem ipsum</h3>
+              <a href="portfolio.html">Show me</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <!-- ==========================
+    	REFERENCE - START - PORTFOLIO
+    =========================== -->
+
+    <!-- ==========================
+    	QUOTES - START
+    =========================== -->
+    <section id="quotes" class="content-first">
+      <div class="container">
+        <div class="row scrollpoint sp-effect3">
+          <div class="col-sm-8 col-sm-offset-2">
+            <blockquote class="blockquote-reverse">
+              <p>
+                <i class="fa fa-quote-left"></i>It is possible to commit no
+                mistakes and still lose. That is not a weakness. That is life.
+              </p>
+              <footer>Captain Jean-Luc Picard</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+    	QUOTES - END
+    =========================== -->
+
+    <!-- =============================
+    	GITHUB SHOWCASE
+    ================================== -->
     <section id="showcase" class="content-second">
+      <div class="container center github-container">
+        <p>GitHub Activity</p>
+        <a href="https://github.com/zarela" target="_blank">
+          <i class="fab fa-github fa-4x"></i>
+        </a>
+
+        <div class="github">
+          <script>
+            new GitHubCalendar(".github", "zarela", {
+              responive: true,
+              global_stats: true
+            });
+          </script>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+    	GITHUB SHOWCASE
+    =========================== -->
+
+    <!-- ==========================
+    	BLOG - START
+    =========================== -->
+    <section id="blog" class="content-first">
+      <div class="container">
+        <h2 class="scrollpoint sp-effect3">Latest Blog Posts</h2>
+        <p class="scrollpoint sp-effect3">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in
+          turpis quam. Nulla quis eleifend lectus.
+        </p>
+      </div>
+
+      <div class="line hidden-xs">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <!-- MAIN ROW - Start -->
+          <!-- BLOG POST - Start -->
+          <div class="col-sm-4 scrollpoint sp-effect1">
+            <div class="blog-post">
+              <div class="blog-body">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum. At vero eos et accusamus et
+                  iusto odio dignissimos ducimus qui blanditiis praesentium
+                  voluptatum
+                </p>
+                <a href="blog.html" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="blog-info">
+                <a><i class="fa fa-comment"></i> 352</a>
+                <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- BLOG POST - End -->
+
+          <!-- BLOG POST - Start -->
+          <div class="col-sm-4 scrollpoint sp-effect3">
+            <div class="blog-post">
+              <div class="blog-body">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum. At vero eos et accusamus et
+                  iusto odio dignissimos ducimus qui blanditiis praesentium
+                  voluptatum
+                </p>
+                <a href="blog.html" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="blog-info">
+                <a><i class="fa fa-comment"></i> 352</a>
+                <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- BLOG POST - End -->
+
+          <!-- BLOG POST - Start -->
+          <div class="col-sm-4 scrollpoint sp-effect2">
+            <div class="blog-post">
+              <div class="blog-body">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum. At vero eos et accusamus et
+                  iusto odio dignissimos ducimus qui blanditiis praesentium
+                  voluptatum
+                </p>
+                <a href="blog.html" class="btn btn-primary">Read More</a>
+              </div>
+              <div class="blog-info">
+                <a><i class="fa fa-comment"></i> 352</a>
+                <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- BLOG POST - End -->
+        </div>
+        <!-- MAIN ROW - end -->
+      </div>
+      <!-- CONTAINER - end -->
+    </section>
+    <!-- ==========================
+    	BLOG - END
+    =========================== -->
+
+    <!-- ==========================
+    	CURRENTLY ON DEVELOPMENT
+    =========================== -->
+    <section id="pricing" class="content-second">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -647,276 +878,7 @@
       </div>
     </section>
     <!-- ==========================
-    	SHOWCASE - END
-    =========================== -->
-
-    <!-- ==========================
-    	QUOTES - START
-    =========================== -->
-    <section id="quotes" class="content-first">
-      <div class="container">
-        <div class="row scrollpoint sp-effect3">
-          <div class="col-sm-8 col-sm-offset-2">
-            <blockquote class="blockquote-reverse">
-              <p>
-                <i class="fa fa-quote-left"></i>There is a way out of every box,
-                a solution to every puzzle; it's just a matter of finding it .
-              </p>
-              <footer>Captain Jean-Luc Picard</footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ==========================
-    	QUOTES - END
-    =========================== -->
-
-    <!-- =============================
-    	REFERENCE - START - PORTFOLIO
-    ================================== -->
-    <section id="reference" class="content-second">
-      <h2 class="scrollpoint sp-effect3">Portfolio</h2>
-      <p class="scrollpoint sp-effect3">
-        Full stack applications in both MEAN Stack and Ruby on Rails
-      </p>
-      <ul class="grid cs-style-4">
-        <li>
-          <figure class="scrollpoint sp-effect1">
-            <div><img src="image/ref1.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="scrollpoint sp-effect3">
-            <div><img src="image/ref2.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="scrollpoint sp-effect2">
-            <div><img src="image/ref3.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="scrollpoint sp-effect1">
-            <div><img src="image/ref4.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="scrollpoint sp-effect3">
-            <div><img src="image/ref5.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-
-        <li>
-          <figure class="scrollpoint sp-effect2">
-            <div><img src="image/ref6.png" alt="img04" /></div>
-            <figcaption>
-              <h3>Lorem ipsum</h3>
-              <a href="portfolio.html">Show me</a>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-    <!-- ==========================
-    	REFERENCE - END
-    =========================== -->
-
-    <!-- ==========================
-    	BLOG - START
-    =========================== -->
-    <section id="blog" class="content-first">
-      <div class="container">
-        <!-- <h2 class="scrollpoint sp-effect3">Latest Blog Posts</h2>
-        	<p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> -->
-      </div>
-
-      <div class="line hidden-xs">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
-            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
-            <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <!-- MAIN ROW - Start -->
-          <!-- BLOG POST - Start -->
-          <!-- <div class="col-sm-4 scrollpoint sp-effect1">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="blog.html" class="btn btn-primary">Read More</a>
-                        </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
-                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div> -->
-          <!-- BLOG POST - End -->
-
-          <!-- BLOG POST - Start -->
-          <!-- <div class="col-sm-4 scrollpoint sp-effect3">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="blog.html" class="btn btn-primary">Read More</a>
-                        </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
-                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div> -->
-          <!-- BLOG POST - End -->
-
-          <!-- BLOG POST - Start -->
-          <!-- <div class="col-sm-4 scrollpoint sp-effect2">
-                	<div class="blog-post">
-                    	<div class="blog-body">
-                    		<h3>Lorem Ipsum</h3>
-                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                        	<a href="blog.html" class="btn btn-primary">Read More</a>
-                        </div>
-                        <div class="blog-info">
-                        	<a><i class="fa fa-comment"></i> 352</a>
-                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div> -->
-          <!-- BLOG POST - End -->
-        </div>
-        <!-- MAIN ROW - end -->
-      </div>
-      <!-- CONTAINER - end -->
-    </section>
-    <!-- ==========================
-    	BLOG - END
-    =========================== -->
-
-    <!-- ==========================
-    	PRICING - START
-    =========================== -->
-    <section id="pricing" class="content-second">
-      <div class="container">
-        <h2 class="scrollpoint sp-effect3">Services</h2>
-        <p class="scrollpoint sp-effect3">Professionalism Guarantee</p>
-        <div class="row">
-          <!-- PRICING TABLE FIRST - start -->
-          <div class="col-sm-4 scrollpoint sp-effect1">
-            <!-- PRICING TABLE FIRST - start -->
-            <div class="pricing-table">
-              <!-- Pricing table - start -->
-              <div class="pricing-headline">
-                <h3>Web Design</h3>
-                <!-- <div class="prize">$950</div> -->
-                <div class="prize fa fa-desktop"></div>
-              </div>
-
-              <ul class="list-unstyled">
-                <!-- <li><strong>150</strong> Web Setup </li> -->
-                <li><i class="fa fa-check"></i> Web Setup</li>
-                <li><i class="fa fa-check"></i> Web Deployment</li>
-                <li><i class="fa fa-check"></i> Graphic Design</li>
-                <li><i class="fa fa-check"></i> Web Content</li>
-              </ul>
-
-              <div class="btn-wrapper">
-                <a class="btn btn-primary">Get a Quote</a>
-              </div>
-            </div>
-            <!-- Pricing table - end-->
-          </div>
-          <!-- COL-SM-4 - end -->
-
-          <div class="col-sm-4 scrollpoint sp-effect3">
-            <!-- PRICING TABLE FIRST - start -->
-            <div class="pricing-table active">
-              <!-- Pricing table - start -->
-              <div class="pricing-headline">
-                <h3>Web Applications</h3>
-                <div class="prize fa fa-cubes"></div>
-              </div>
-
-              <ul class="list-unstyled">
-                <li><i class="fa fa-check"></i> Project Wireframes</li>
-                <li><i class="fa fa-check"></i> Programming</li>
-                <li><i class="fa fa-check"></i> Testing</li>
-                <li><i class="fa fa-check"></i> App Deployment</li>
-              </ul>
-
-              <div class="btn-wrapper">
-                <a class="btn btn-primary">Get a Quote</a>
-              </div>
-            </div>
-            <!-- Pricing table - end-->
-          </div>
-          <!-- COL-SM-4 - end -->
-
-          <div class="col-sm-4 scrollpoint sp-effect2">
-            <!-- PRICING TABLE FIRST - start -->
-            <div class="pricing-table">
-              <!-- Pricing table - start -->
-              <div class="pricing-headline">
-                <h3>Marketing Consultant</h3>
-                <div class="prize fa fa-trophy"></div>
-              </div>
-
-              <ul class="list-unstyled">
-                <li><i class="fa fa-check"></i> SEO Optimization</li>
-                <li><i class="fa fa-check"></i> E-commerce</li>
-                <li><i class="fa fa-check"></i> Social Media</li>
-                <li><i class="fa fa-check"></i> E-mail Campaigns</li>
-              </ul>
-
-              <div class="btn-wrapper">
-                <a class="btn btn-primary">Get a Quote</a>
-              </div>
-            </div>
-            <!-- Pricing table - end-->
-          </div>
-          <!-- COL-SM-4 - end -->
-        </div>
-      </div>
-    </section>
-    <!-- ==========================
-    	PRICING - END
+    	CURRENTLY ON DEVELOPMENT
     =========================== -->
 
     <!-- ==========================
