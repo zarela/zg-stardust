@@ -638,13 +638,12 @@ header {
 }
 
 .event .event-info:after {
-  font-family: FontAwesome;
   width: 36px;
   height: 36px;
   position: absolute;
   right: 5px;
   top: -7px;
-  content: "\f024";
+  content: "\2714";
   text-align: center;
   font-size: 14px;
   border-radius: 50%;
