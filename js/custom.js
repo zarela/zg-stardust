@@ -33,12 +33,12 @@ $(document).ready(function() {
 	$('#skills-toggle').click(function() {
         $('#skills').slideToggle(500);
 		$('.chart').easyPieChart({
-			barColor: '#1ABC9C',
-			trackColor: '#2F4254',
+			barColor: '#72b47d',
+			trackColor: '#673ab7',
 			scaleColor: false,
 			lineCap: 'butt',
-			lineWidth: 12,
-			size:110,
+			lineWidth: 10,
+			size:120,
 			animate: 2000
 		});
     });
@@ -87,6 +87,3 @@ $(document).ready(function() {
 		$('.macbook-inner').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('black');},{offset:'70%'});
 	}
 });
-
-
-

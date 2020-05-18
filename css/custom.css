@@ -611,6 +611,7 @@ header {
 }
 
 .chart {
+  color: white;
   margin: 10px auto;
   font-size: 14px;
   font-weight: bold;
@@ -618,6 +619,17 @@ header {
   line-height: 100px;
   width: 100px;
   text-align: center;
+}
+
+.chart-content {
+  display: grid;
+  padding-top: 2em;
+}
+
+.chart-titles {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .timeline {
@@ -1563,9 +1575,9 @@ blockquote footer {
     padding: 10px 0;
   }
 
-  #skills .chart {
+  /* #skills .chart {
     margin-bottom: 50px;
-  }
+  } */
 
   .tweets {
     min-height: 90px;
