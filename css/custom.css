@@ -1278,7 +1278,7 @@ blockquote footer {
 
 #footer .brands li a:hover {
   color: #ffffff;
-  background-color: #283848;
+  background-color: #72b47d;
 }
 
 #footer p {
@@ -1813,7 +1813,13 @@ blockquote footer {
 }
 
 .contrib-number {
-  color: #ffeb3b;
+  /* color: #ffeb3b; */
+  color: #c6e48a;
+}
+
+#github-showcase-icon:hover {
+  /* color: white; */
+  color: #c6e48a;
 }
 
 .contrib-column {
