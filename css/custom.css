@@ -276,6 +276,16 @@ h4 {
   text-align: center;
 }
 
+.content-github {
+  background-color: #1d1d1d;
+  padding: 80px 0;
+  color: #ffffff;
+  border-top: 8px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+
 .scrollpoint {
   opacity: 0;
 }
@@ -611,6 +621,7 @@ header {
 }
 
 .chart {
+  color: white;
   margin: 10px auto;
   font-size: 14px;
   font-weight: bold;
@@ -618,6 +629,17 @@ header {
   line-height: 100px;
   width: 100px;
   text-align: center;
+}
+
+.chart-content {
+  display: grid;
+  padding-top: 2em;
+}
+
+.chart-titles {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .timeline {
@@ -638,13 +660,12 @@ header {
 }
 
 .event .event-info:after {
-  font-family: FontAwesome;
   width: 36px;
   height: 36px;
   position: absolute;
   right: 5px;
   top: -7px;
-  content: "\f024";
+  content: "\2714";
   text-align: center;
   font-size: 14px;
   border-radius: 50%;
@@ -1217,6 +1238,10 @@ blockquote footer {
   font-weight: bold;
 }
 
+#contact .contact-info span {
+  padding-left: 1.5em;
+}
+
 #contact .contact-info p:last-child {
   border-bottom: 0;
 }
@@ -1267,7 +1292,7 @@ blockquote footer {
 
 #footer .brands li a:hover {
   color: #ffffff;
-  background-color: #283848;
+  background-color: #72b47d;
 }
 
 #footer p {
@@ -1564,9 +1589,9 @@ blockquote footer {
     padding: 10px 0;
   }
 
-  #skills .chart {
+  /* #skills .chart {
     margin-bottom: 50px;
-  }
+  } */
 
   .tweets {
     min-height: 90px;
@@ -1802,7 +1827,13 @@ blockquote footer {
 }
 
 .contrib-number {
-  color: #ffeb3b;
+  /* color: #ffeb3b; */
+  color: #c6e48a;
+}
+
+#github-showcase-icon:hover {
+  /* color: white; */
+  color: #c6e48a;
 }
 
 .contrib-column {
