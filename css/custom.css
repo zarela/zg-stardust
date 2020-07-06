@@ -28,13 +28,13 @@
 #date p {
   font-weight: 600;
   font-size: 40px;
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
 }
 
 #date .month {
   font-weight: 500;
   font-size: 30px;
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
 }
 
 #blog-header {
@@ -62,12 +62,11 @@
 }
 
 #blog-header a {
-  color: #72b47d;
+  color: #00bbcb;
   font-size: 20px;
 }
 
 #blog-header a:hover {
-  /* color:pink; */
   color: #72b47d;
 }
 
@@ -99,11 +98,11 @@
 }
 
 .blog-about h3 {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .archive span {
-  background-color: #72b47d;
+  background-color: #00bbcb;
   padding: 2px 6px;
   border-radius: 25px;
   margin-left: 10px;
@@ -128,7 +127,7 @@
 }
 
 .blog-about-xs h3 {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 /*------------------------------
@@ -172,7 +171,7 @@
 .comment h4 {
   font-size: 22px;
   margin: 0 0 10px;
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .comment h4 small {
@@ -182,12 +181,12 @@
 }
 
 .comment a {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .comment a i {
   margin-right: 7px;
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .comments-form h2 {
@@ -220,7 +219,7 @@ body {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Baloo 2', cursive;
   overflow-x: hidden;
 }
 
@@ -244,18 +243,18 @@ p {
 h2 {
   margin: 0 0 20px;
   color: #ffffff;
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
   font-size: 56px;
 }
 
 h3 {
   color: #ffffff;
-  font-family: "Alegreya Sans SC";
+  font-family: 'Baloo 2', cursive;
 }
 
 h4 {
   color: #ffffff;
-  font-family: "Alegreya Sans SC";
+  font-family: 'Baloo 2', cursive;
   margin-top: 0;
 }
 
@@ -300,7 +299,7 @@ h4 {
   position: fixed;
   bottom: 15px;
   right: 25px;
-  color: #72b47d;
+  color: #00bbcb;
   border: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 16px;
   display: none;
@@ -318,7 +317,7 @@ h4 {
   background-color: #ffffff;
   border-color: rgba(0, 0, 0, 0.2);
   padding-top: 0px;
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 /*------------------------------
@@ -328,13 +327,13 @@ h4 {
 .btn,
 .btn:hover,
 .btn:focus {
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
   color: #ffffff;
   transition-duration: 0.4s;
 }
 
 .btn-primary {
-  background-color: #72b47d;
+  background-color: #00bbcb;
   border-radius: 5rem !important;
 }
 
@@ -362,9 +361,9 @@ h4 {
 
 .btn-reference:hover,
 .btn-reference.btn-active {
-  border: 1px solid #72b47d;
-  border-bottom: 3px solid #72b47d;
-  color: #72b47d;
+  border: 1px solid #00bbcb;
+  border-bottom: 3px solid #00bbcb;
+  color: #00bbcb;
 }
 
 /*------------------------------
@@ -377,11 +376,11 @@ h4 {
 }
 
 .alert-success {
-  background-color: #72b47d;
+  background-color: #00bbcb;
 }
 
 .alert-danger {
-  background-color: #72b47d;
+  background-color: #00bbcb;
 }
 
 /*------------------------------
@@ -400,10 +399,15 @@ h4 {
 }
 
 .navbar-default .navbar-brand {
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
   padding: 23px 0 0 25px;
+<<<<<<< Updated upstream
+  color: #00bbcb;
+  /* color: #72b47d; */
+=======
   color: #72b47d;
-  font-size: 24px;
+>>>>>>> Stashed changes
+  font-size: 30px;
   transition-duration: 0.7s;
 }
 
@@ -418,7 +422,7 @@ h4 {
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
-  font-family: "Alegreya Sans SC";
+  font-family: 'Baloo 2', cursive;
   margin-top: 6px;
   font-size: 18px;
   border-left: 4px solid transparent;
@@ -426,17 +430,17 @@ h4 {
 }
 
 .navbar-default .navbar-nav > li > a.blog_menu_link {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .navbar-default .navbar-nav > li > a.blog_menu_link:hover {
-  color: #72b47d;
-  border-left: 4px solid #72b47d;
+  color: #00bbcb;
+  border-left: 4px solid #00bbcb;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #72b47d;
-  border-left: 4px solid #72b47d;
+  color: #00bbcb;
+  border-left: 4px solid #00bbcb;
 }
 
 .navbar-collapse {
@@ -484,21 +488,21 @@ header {
 .brands > li > a {
   background-color: transparent;
   color: #ffffff;
-  border-top: 3px solid #72b47d;
+  border-top: 3px solid #00bbcb;
   transition-duration: 0.2s;
 }
 
 .brands > li > a:hover {
-  color: #72b47d;
+  color: #00bbcb;
   border-top: 3px solid #2f2f2f;
 }
 
 #slideshow .icon-first {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 #slideshow i {
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 .carousel-inner {
@@ -545,7 +549,7 @@ header {
 
 .tweets p {
   padding: 0 3em;
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
   font-size: 16px;
 }
 
@@ -555,7 +559,7 @@ header {
 
 .tweets i {
   font-size: 68px;
-  color: #72b47d;
+  color: #00bbcb;
   padding-left: 15px;
 }
 
@@ -595,7 +599,7 @@ header {
 
 #about .overlay-wrapper .brands > li > a:hover {
   /* color:pink; */
-  color: #72b47d;
+  color: #00bbcb;
 }
 
 /* SKILLS */
@@ -621,7 +625,8 @@ header {
 }
 
 .chart {
-  color: white;
+  /* color: white; */
+  color: #ab78d7;
   margin: 10px auto;
   font-size: 14px;
   font-weight: bold;
@@ -637,13 +642,13 @@ header {
 }
 
 .chart-titles {
-  color: white;
+  color: #d367c1;
   font-size: 1.5em;
   font-weight: bold;
 }
 
 .timeline {
-  border-left: 3px solid #72b47d;
+  border-left: 3px solid #00bbcb;
   margin-left: 110px;
   padding-left: 0px;
 }
@@ -677,7 +682,7 @@ header {
 
 .event .event-info .date {
   font-size: 12px;
-  font-family: "Montserrat";
+  font-family: 'Baloo 2', cursive;
   margin-left: 25px;
 }
 
@@ -716,13 +721,13 @@ header {
 }
 
 #separator i {
-  color: #72b47d;
+  color: #00bbcb;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
 #separator .highlight {
-  border-bottom: 3px solid #72b47d;
+  border-bottom: 3px solid #00bbcb;
   font-weight: 600;
   font-size: 16px;
 }
@@ -818,7 +823,7 @@ header {
 }
 
 blockquote footer {
-  color: #72b47d;
+  color: #00bbcb;
   font-size: 18px;
 }
 
@@ -948,11 +953,11 @@ blockquote footer {
   position: absolute;
   bottom: 15px;
 
-  background-color: #72b47d;
+  background-color: #00bbcb;
 }
 
 .cs-style-4 figcaption a:hover {
-  color: #72b47d;
+  color: #00bbcb;
   background-color: #ffffff;
 }
 
@@ -1016,13 +1021,13 @@ blockquote footer {
 }
 
 .blog-post .blog-info > a:hover {
-  background-color: #72b47d;
+  background-color: #00bbcb;
   color: #ffffff;
   font-weight: bold;
 }
 
 #blog .line {
-  background-color: #72b47d;
+  background-color: #00bbcb;
   height: 4px;
   margin: 50px 0 30px 0;
 }
@@ -1121,7 +1126,7 @@ blockquote footer {
 ------------------------------*/
 
 #testimonials {
-  background-color: #72b47d;
+  background-color: #00bbcb;
 }
 
 #testimonials .media {
@@ -1232,7 +1237,7 @@ blockquote footer {
 }
 
 #contact .contact-info p {
-  border-bottom: 2px dashed #72b47d;
+  border-bottom: 2px dashed #00bbcb;
   margin: 0;
   padding: 12px 0;
   font-weight: bold;
@@ -1284,7 +1289,7 @@ blockquote footer {
 }
 
 #footer .brands li a {
-  color: #72b47d;
+  color: #00bbcb;
 
   border-radius: 50px;
   border: 0;
@@ -1292,7 +1297,7 @@ blockquote footer {
 
 #footer .brands li a:hover {
   color: #ffffff;
-  background-color: #72b47d;
+  background-color: #00bbcb;
 }
 
 #footer p {
@@ -1508,7 +1513,7 @@ blockquote footer {
 
   .navbar-default .navbar-toggle {
     margin: 0;
-    background-color: #72b47d;
+    background-color: #00bbcb;
     border: 0;
     border-radius: 0;
     padding: 3px 0 0;
@@ -1520,7 +1525,7 @@ blockquote footer {
 
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
-    background-color: #72b47d;
+    background-color: #00bbcb;
   }
 
   .navbar-brand {
@@ -1588,10 +1593,6 @@ blockquote footer {
   #skills {
     padding: 10px 0;
   }
-
-  /* #skills .chart {
-    margin-bottom: 50px;
-  } */
 
   .tweets {
     min-height: 90px;
@@ -1820,19 +1821,17 @@ blockquote footer {
 ------------------------------*/
 
 .github-container {
-  border: 4px solid #72b47d;
+  border: 4px solid #00bbcb;
   align-content: center;
   max-width: 100%;
   height: auto;
 }
 
 .contrib-number {
-  /* color: #ffeb3b; */
   color: #c6e48a;
 }
 
 #github-showcase-icon:hover {
-  /* color: white; */
   color: #c6e48a;
 }
 
