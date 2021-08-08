@@ -33,8 +33,8 @@ $(document).ready(function() {
 	$('#skills-toggle').click(function() {
         $('#skills').slideToggle(500);
 		$('.chart').easyPieChart({
-			barColor: '#72b47d',
-			trackColor: '#673ab7',
+			barColor: '#00bbcb',
+			trackColor: '#6062e3',
 			scaleColor: false,
 			lineCap: 'butt',
 			lineWidth: 10,
